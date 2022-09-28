@@ -25,6 +25,10 @@ const font = {
     `font-family: NEXON Gothic;
     font-size: 20px;
     line-height: 26px;`,
+    bold:
+    `font-family: NEXON Lv1 Gothic;
+    font-weight:700;
+    font-size: 18px;`,
     p:
     `font-family: NEXON Gothic;
     font-size: 16px;
