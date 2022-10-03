@@ -19,6 +19,7 @@ const Header =() => {
 export default Header
 const Container = styled.section`
     height: 121px;
+    width: 100vw;
     background: #fff;
     padding: 0 40px;
 `;
