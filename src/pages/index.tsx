@@ -1,5 +1,6 @@
 import styled from "@emotion/styled"
 import { keyframes } from "@emotion/react";
+import Link from "next/link";
 
 export default function Home () {
     return(
@@ -11,7 +12,9 @@ export default function Home () {
                 </MainImgWrap>
                 <MainBtnWrap>
                     <MainStartBtn>회원가입 없이 시작하기 </MainStartBtn>
-                    <MainLoginBtn>로그인하러 가기</MainLoginBtn>
+                    <Link href='/login'>
+                        <MainLoginBtn>로그인하러 가기</MainLoginBtn>
+                    </Link>
                 </MainBtnWrap>
             </MainWrap>
         </Container>
