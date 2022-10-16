@@ -1,0 +1,155 @@
+const img_url_endpoint: string = "/images/map_svg/";
+const maps = [
+  {
+    city: "강남구",
+    url: img_url_endpoint + "Gangseo-gu.svg",
+    position_top: 189.93,
+    position_left: 14.03,
+  },
+  {
+    city: "양천구",
+    url: img_url_endpoint + "Yangcheon-gu.svg",
+    position_top: 278.34,
+    position_left: 72.99,
+  },
+  {
+    city: "구로구",
+    url: img_url_endpoint + "Guro-gu.svg",
+    position_top: 334.18,
+    position_left: 64.46,
+  },
+  {
+    city: "영등포구",
+    url: img_url_endpoint + "Yeongdeungpo-gu.svg",
+    position_top: 273.15,
+    position_left: 142.69,
+  },
+  {
+    city: "금천구",
+    url: img_url_endpoint + "Geumcheon-gu.svg",
+    position_top: 376.42,
+    position_left: 133.8,
+  },
+  {
+    city: "동작구",
+    url: img_url_endpoint + "Dongjak-gu.svg",
+    position_top: 327.2,
+    position_left: 171.62,
+  },
+  {
+    city: "관악구",
+    url: img_url_endpoint + "Gwanak-gu.svg",
+    position_top: 366.22,
+    position_left: 171.81,
+  },
+  {
+    city: "서초구",
+    url: img_url_endpoint + "Seocho-gu.svg",
+    position_top: 317.9,
+    position_left: 253.75,
+  },
+  {
+    city: "강남구",
+    url: img_url_endpoint + "Gangnam-gu.svg",
+    position_top: 308.66,
+    position_left: 300.1,
+  },
+  {
+    city: "송파구",
+    url: img_url_endpoint + "Songpa-gu.svg",
+    position_top: 289.26,
+    position_left: 367.96,
+  },
+  {
+    city: "강동구",
+    url: img_url_endpoint + "Gangdong-gu.svg",
+    position_top: 240.94,
+    position_left: 424.14,
+  },
+  {
+    city: "은평구",
+    url: img_url_endpoint + "Eunpyeong-gu.svg",
+    position_top: 106.89,
+    position_left: 151.41,
+  },
+  {
+    city: "마포구",
+    url: img_url_endpoint + "Mapo-gu.svg",
+    position_top: 208.9,
+    position_left: 116.56,
+  },
+  {
+    city: "서대문구",
+    url: img_url_endpoint + "Seodaemun-gu.svg",
+    position_top: 190.43,
+    position_left: 177.16,
+  },
+  {
+    city: "종로구",
+    url: img_url_endpoint + "Jongno-gu.svg",
+    position_top: 146.62,
+    position_left: 233.92,
+  },
+  {
+    city: "중구",
+    url: img_url_endpoint + "Jung-gu.svg",
+    position_top: 245.34,
+    position_left: 240.22,
+  },
+  {
+    city: "용산구",
+    url: img_url_endpoint + "Yongsan-gu.svg",
+    position_top: 274.03,
+    position_left: 221.68,
+  },
+  {
+    city: "강북구",
+    url: img_url_endpoint + "Gangbuk-gu.svg",
+    position_top: 67.34,
+    position_left: 271.18,
+  },
+  {
+    city: "성북구",
+    url: img_url_endpoint + "Seongbuk-gu.svg",
+    position_top: 140.36,
+    position_left: 259.5,
+  },
+  {
+    city: "동대문구",
+    url: img_url_endpoint + "Dongdaemun-gu.svg",
+    position_top: 193.51,
+    position_left: 317.53,
+  },
+  {
+    city: "성동구",
+    url: img_url_endpoint + "Seongdong-gu.svg",
+    position_top: 247,
+    position_left: 301,
+  },
+  {
+    city: "도봉구",
+    url: img_url_endpoint + "Dobong-gu.svg",
+    position_top: 45.06,
+    position_left: 300.77,
+  },
+  {
+    city: "노원구",
+    url: img_url_endpoint + "Nowon-gu.svg",
+    position_top: 46.28,
+    position_left: 344.79,
+  },
+  {
+    city: "중랑구",
+    url: img_url_endpoint + "Jungnang-gu.svg",
+    position_top: 169.71,
+    position_left: 376.29,
+  },
+  {
+    city: "광진구",
+    url: img_url_endpoint + "Gwangjin-gu.svg",
+    position_top: 243.25,
+    position_left: 359.06,
+  },
+];
+
+export default maps;

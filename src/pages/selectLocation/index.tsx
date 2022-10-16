@@ -19,16 +19,16 @@ export default SelectLocation;
 const SelectLocations = styled.section`
   background: ${({ theme }) => theme.color.primary};
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
 const SelectHeaderP = styled.p`
-  width: 200px;
+  width: 300px;
   height: 100px;
   margin: 0 auto;
-  background-color: red;
   ${({ theme }) => theme.font.h2};
 `;
 const MapSection = styled.article``;
